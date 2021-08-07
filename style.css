@@ -1,0 +1,184 @@
+*{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #02339a;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+nav{
+  height: 100%;
+  width: 75%;
+  float: right;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  background-color: #02339a;
+}
+
+nav a{
+  vertical-align: middle;
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+#bg-theme {
+  background-color: #02339a;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.frontPageTitle {
+  color: #02339a;
+  text-align: center;
+}
+
+.frontPageText {
+  color: #02339a;
+  text-align: center;
+}
+
+.welcome {
+  margin-top:40px
+}
+
+.brebeuf {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.mtl {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.aboutUs {
+  background-color: #FFF8E5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.ourMission {
+  background-color: #FFF8E5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+footer {
+  background-color: #02339a;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.icon {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+.footerText#left {
+  color: white;
+  float: left;
+}
+
+.footerText#right {
+  color: white;
+  float: right;
+}
+
+#ourTeam {
+  text-align: center;
+  color: #02339a;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+div.Question {
+  background-color: #FFF8E5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+h1.Question{
+  margin-top: 40px;
+}
+
+.members {
+  text-align: center;
+  color: #02339a;
+}
+
+.picture {
+  width: 50%;
+  border: 3px solid #02339a;
+  border-radius: 10%;
+}
+
+.col#Question{
+  padding: 0;
+  margin: 20px;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+#InstagramLogo{
+  float: right;
+}
+
+.RegisterForm{
+  width:1000px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.RegisterSection{
+  margin-top: 30px;
+}
+
+/*.form-control#Expectations, .form-control#ExperienceWithFrench, .form-control#AdditionalComments{
+  height: 150px;
+}*/
+
+ #RegisterLabel{
+   color: #06437a;
+   font-weight: 700;
+   font-family: "Times New Roman";
+   font-size: 20px;
+ }
